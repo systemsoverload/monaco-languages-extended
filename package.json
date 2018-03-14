@@ -1,6 +1,6 @@
 {
   "name": "monaco-languages-extended",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extended language grammars for Microsoft's monaco-editor package",
   "main": "index.js",
   "scripts": {

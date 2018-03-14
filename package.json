@@ -1,0 +1,16 @@
+{
+  "name": "monaco-languages-extended",
+  "version": "0.0.1",
+  "description": "Extended language grammars for Microsoft's monaco-editor package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/bitbucket/monaco-languages-extended.git"
+  },
+  "author": "TJ Kells",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/bitbucket/monaco-languages-extended#readme"
+}

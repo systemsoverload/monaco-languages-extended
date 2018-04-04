@@ -2,15 +2,23 @@
   "name": "monaco-languages-extended",
   "version": "0.0.2",
   "description": "Extended language grammars for Microsoft's monaco-editor package",
-  "main": "index.js",
+  "main": "es/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "BABEL_ENV=es babel src -d es"
   },
+  "files": [
+    "es"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://bitbucket.org/bitbucket/monaco-languages-extended.git"
   },
   "author": "TJ Kells",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/bitbucket/monaco-languages-extended#readme"
+  "homepage": "https://bitbucket.org/bitbucket/monaco-languages-extended#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }

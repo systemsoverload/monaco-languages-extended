@@ -20,7 +20,10 @@ exports.default = {
     [/[A-Z][\w\$]*/, 'type.identifier'],
 
     // atoms
-    [/(?:[^\w]):\w+/, 'variable'],
+    [/(?:[^\W])?:\w+/, 'variable'],
+
+    //attributes
+    [/@\w+/, 'constant'],
 
     // numbers
     [/\d*\.\d+([eE][\-+]?\d+)?/, 'number.float'], [/0[xX][0-9a-fA-F]+[lL]?/, 'number.hex'], [/0[bB][0-1]+[lL]?/, 'number.binary'], [/(0[oO][0-7]+|0[0-7]+)[lL]?/, 'number.octal'], [/(0|[1-9]\d*)[lL]?/, 'number'],
@@ -33,6 +36,7 @@ exports.default = {
 
     //strings
     [/"/, 'string', '@string'],
+
     //char list
     [/'/, 'string', '@charlist'],
 

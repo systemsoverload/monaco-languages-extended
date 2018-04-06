@@ -28,7 +28,10 @@ export default {
       [/[A-Z][\w\$]*/, 'type.identifier' ],
 
       // atoms
-      [/(?:[^\w]):\w+/, 'variable'],
+      [/(?:[^\W])?:\w+/, 'variable'],
+
+      //attributes
+      [/@\w+/, 'constant'],
 
       // numbers
       [/\d*\.\d+([eE][\-+]?\d+)?/,   'number.float'],
@@ -45,6 +48,7 @@ export default {
 
       //strings
       [/"/, 'string', '@string' ],
+
       //char list
       [/'/, 'string', '@charlist'],
 

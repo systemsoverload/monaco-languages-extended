@@ -9,5 +9,5 @@ var _standardTokens = require('./standard-tokens');
 
 var _extendedTokens = require('./extended-tokens');
 
-var standardTokens = exports.standardTokens = { rust: _standardTokens.rust, elixir: _standardTokens.elixir };
+var standardTokens = exports.standardTokens = { rust: _standardTokens.rust, elixir: _standardTokens.elixir, perl: _standardTokens.perl };
 var extendedTokens = exports.extendedTokens = { python: _extendedTokens.python };

@@ -22,4 +22,13 @@ Object.defineProperty(exports, 'elixir', {
   }
 });
 
+var _perl = require('./perl/perl.js');
+
+Object.defineProperty(exports, 'perl', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_perl).default;
+  }
+});
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

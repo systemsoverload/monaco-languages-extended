@@ -12,11 +12,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/bitbucket/monaco-languages-extended.git"
+    "url": "git+https://github.com/systemsoverload/monaco-languages-extended.git"
   },
   "author": "TJ Kells",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/bitbucket/monaco-languages-extended#readme",
+  "homepage": "https://github.com/systemsoverload/monaco-languages-extended#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1"

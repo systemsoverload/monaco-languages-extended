@@ -31,4 +31,13 @@ Object.defineProperty(exports, 'perl', {
   }
 });
 
+var _dart = require('./dart/dart.js');
+
+Object.defineProperty(exports, 'dart', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_dart).default;
+  }
+});
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

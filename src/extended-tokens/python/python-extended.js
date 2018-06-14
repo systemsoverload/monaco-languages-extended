@@ -92,7 +92,6 @@ export default {
 		'assert',
 		'break',
 		'continue',
-		'def',
 		'del',
 		'elif',
 		'else',
@@ -220,6 +219,10 @@ export default {
 			[/\b(class\s+)([A-Za-z|_][A-Za-z0-9_]+)/, [
 					'storage.type.class',
 					'entity.name.type.class'
+			]],
+			[/\b(def\s+)([A-Za-z|_][A-Za-z0-9_]+)/, [
+				'storage.type.function',
+				'entity.name.function'
 			]],
 			[/\b[-_A-Z0-9]{2,}\b/, 'constant.other.caps'],
 			[/@[a-zA-Z]\w*/, 'tag'],

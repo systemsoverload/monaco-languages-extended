@@ -8,6 +8,9 @@ const languages = {
   perl: {
     extensions: ['.pl', '.pm'],
   },
+  maxima: {
+    extensions: ['.mac'],
+  },
 }
 
 

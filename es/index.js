@@ -12,5 +12,5 @@ var _languages = require('./standard-tokens/languages');
 var _extendedTokens = require('./extended-tokens');
 
 var getLanguageByFileName = exports.getLanguageByFileName = _languages.getLanguage;
-var standardTokens = exports.standardTokens = { rust: _standardTokens.rust, elixir: _standardTokens.elixir, perl: _standardTokens.perl };
+var standardTokens = exports.standardTokens = { rust: _standardTokens.rust, elixir: _standardTokens.elixir, perl: _standardTokens.perl, maxima: _standardTokens.maxima };
 var extendedTokens = exports.extendedTokens = { python: _extendedTokens.python };

@@ -31,4 +31,13 @@ Object.defineProperty(exports, 'perl', {
   }
 });
 
+var _maxima = require('./maxima/maxima.js');
+
+Object.defineProperty(exports, 'maxima', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_maxima).default;
+  }
+});
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
